@@ -1,18 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './portafolio.css'
-import Img1 from '../../assets/portfolio1.jpg'
+import data from './namesImages.json'
+import Modal from './modal/Modal'
 import Pomo from '../../assets/pomodoro.png'
 import Formu from '../../assets/form.png'
 import Jsontocsv from '../../assets/jsontocsv.png'  
 import Onetimesecret from '../../assets/onetimesecret.png'  
 import Urlshortener from '../../assets/urlshortener.png'  
+import Residential from '../../assets/r3.png'  
 import Poke from '../../assets/Poke.png'  
 const Portafolio = () => {
+  const [activeModal, setActiveModal]= useState(false)
+  const [dataImg, setDataImg]= useState('')
   return (
     <section id='portfolio'>
       <h5>My recent work</h5>
       <h2>Portfolio</h2>
-
       <div className='container portfolio_container'>
         <article className='portfolio_item'>
           <div className='portfolio_item-inage'>
@@ -46,7 +49,7 @@ const Portafolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className='portfolio_item-inage'>
-            <img src={Poke} alt=""/>
+            <img src={Poke} alt="" height="140px"/>
           </div>
           <h3>Pokedex</h3>
           <div className="portafolio-item-cta">
@@ -60,6 +63,7 @@ const Portafolio = () => {
           <h3>One time secret</h3>
           <div className="portafolio-item-cta">
           <a href='https://github.com/1Optimus/onetimesecret' className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
+          <p className='btn btn-primary' onClick={()=>{setActiveModal(true);setDataImg(data[0])}}>Images</p>
           </div>
         </article>
         <article className='portfolio_item'>
@@ -69,9 +73,21 @@ const Portafolio = () => {
           <h3>Url shortener</h3>
           <div className="portafolio-item-cta">
             <a href='https://github.com/1Optimus/urlshortener' className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
+            <p className='btn btn-primary' onClick={()=>{setActiveModal(true);setDataImg(data[2])}}>Images</p>
+          </div>
+        </article>
+        <article className='portfolio_item'>
+          <div className='portfolio_item-inage'>
+            <img src={Residential} alt=""/>
+          </div>
+          <h3>Residential web app</h3>
+          <div className="portafolio-item-cta">  
+            <p className='btn' >Github: private</p>          
+            <p className='btn btn-primary' onClick={()=>{setActiveModal(true);setDataImg(data[3])}}>Images</p>
           </div>
         </article>
       </div>
+      <Modal img={dataImg} activeModal={activeModal} setActiveModal={setActiveModal}/>
     </section>
   )
 }
