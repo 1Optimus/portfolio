@@ -31,7 +31,7 @@ const About = () => {
             <article className='about_card'>
               <VscFolderLibrary className='about_icon'/>
               <h5>Experience</h5>
-              <small>5+ proyects completed</small>
+              <small>10+ proyects completed</small>
             </article>
           </div>
           <p>Hello my name is Ricardo Perez, I am a bilingual, enthusiastic and autodidactic programmer who likes to program, I was born in Guatemala but I am currently a resident in the United States, currently I finished my degree in systems engineering and I am finishing the first year of my master in information security, I have developed several personal projects in ReactJS, with that experience I started working in Telus international as a ReactJS developer but I had to resign because I moved to another country. Due to the systems engineering career I have learned a lot more as I describe below, not only I have experience in front-end but it is the knowledge that I have fresh at the moment.</p>
