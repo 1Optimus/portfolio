@@ -82,7 +82,7 @@ const Portafolio = () => {
           </div>
           <h3>Residential web app</h3>
           <div className="portafolio-item-cta">  
-            <p className='btn' >Github: private</p>          
+            <p className='btn' >Code it is secret</p>          
             <p className='btn btn-primary' onClick={()=>{setActiveModal(true);setDataImg(data[3])}}>Images</p>
           </div>
         </article>
