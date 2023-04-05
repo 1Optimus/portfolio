@@ -5,7 +5,7 @@
     },
     {
         "id":"Pokedex",
-        "images":["Poke.png","Poke1.png","Poke2.png"]
+        "images":["Poke1.png","Poke2.png","Poke3.png","Poke4.png","Poke5.jpg"]
     },
     {
         "id":"Url shortener",
@@ -13,5 +13,9 @@
     },{
         "id":"residential",
         "images":["r1.png","r2.png","r3.png","r4.png","r5.png","r6.png","r7.png","r8.png"]
+    }
+    ,{
+        "id":"Gallery",
+        "images":["GCP.jpg"]
     }
 ]
