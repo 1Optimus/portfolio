@@ -22,11 +22,7 @@ nav{
     font-size: 1.1rem;
  }
  nav a:hover{
-<<<<<<< HEAD
     background:var(--color-primary);
-=======
-    background: rgba(0,0,0,0.3);
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
  }
  nav a.active{
     background: var(--color-primary);

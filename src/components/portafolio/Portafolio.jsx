@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 import React, { useState, useContext } from 'react'
 import{ motion } from "framer-motion"
-=======
-import React, { useState } from 'react'
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
 import './portafolio.css'
 import data from './namesImages.json'
 import Modal from './modal/Modal'
@@ -15,19 +11,14 @@ import Urlshortener from '../../assets/urlshortener.png'
 import Residential from '../../assets/r3.png'  
 import GCP from '../../assets/GCP.jpg'  
 import Poke from '../../assets/Poke3.png'  
-<<<<<<< HEAD
 import { themeContext } from "../../Context";
 const Portafolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-=======
-const Portafolio = () => {
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
   const [activeModal, setActiveModal]= useState(false)
   const [dataImg, setDataImg]= useState('')
   return (
     <section id='portfolio'>
-<<<<<<< HEAD
       <h5 style={{ color: darkMode ? "#178fe0" : "#10406a",}}>My recent work</h5>
       <h2 style={{ color: darkMode ? "#f1f8fe" : "#178fe0",}}>Portfolio</h2>
       <div className='container portfolio_container'>
@@ -41,12 +32,6 @@ const Portafolio = () => {
         exit="exit"         
         transition={{ duration: 0.5, delay: 0.35 }} 
         className='portfolio_item'>
-=======
-      <h5>My recent work</h5>
-      <h2>Portfolio</h2>
-      <div className='container portfolio_container'>
-        <article className='portfolio_item'>
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
           <div className='portfolio_item-inage'>
             <img className='imgs' src={Pomo} alt=""/>
           </div>
@@ -55,7 +40,6 @@ const Portafolio = () => {
             <a href='https://github.com/1Optimus/Pomodoro' className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
             <a href='https://pomodoro-ecru-chi.vercel.app/' className='btn btn-primary' target="_blank" rel="noopener noreferrer">Live demo</a>
           </div>
-<<<<<<< HEAD
         </motion.article>
         <motion.article
          variants={{
@@ -67,10 +51,6 @@ const Portafolio = () => {
         exit="exit"         
         transition={{ duration: 0.5, delay: 0.35 }} 
         className='portfolio_item'>
-=======
-        </article>
-        <article className='portfolio_item'>
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
           <div className='portfolio_item-inage'>
             <img className='imgs' src={Jsontocsv} alt=""/>
           </div>
@@ -79,7 +59,6 @@ const Portafolio = () => {
             <a href='https://github.com/1Optimus/jsontocsv' className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
             <a href='https://jsontocsv-1optimus.vercel.app/' className='btn btn-primary' target="_blank" rel="noopener noreferrer">Live demo</a>
           </div>
-<<<<<<< HEAD
         </motion.article>
         <motion.article
          variants={{
@@ -91,10 +70,6 @@ const Portafolio = () => {
         exit="exit"         
         transition={{ duration: 0.5, delay: 0.35 }} 
         className='portfolio_item'>
-=======
-        </article>
-        <article className='portfolio_item'>
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
           <div className='portfolio_item-inage'>
             <img className='imgs'  src={Formu} alt=""/>
           </div>
@@ -103,7 +78,6 @@ const Portafolio = () => {
             <a href='https://github.com/1Optimus/Form' className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
             <a href='https://form-woad-five.vercel.app/' className='btn btn-primary' target="_blank" rel="noopener noreferrer">Live demo</a>
           </div>
-<<<<<<< HEAD
         </motion.article>
         <motion.article
          variants={{
@@ -115,10 +89,6 @@ const Portafolio = () => {
         exit="exit"         
         transition={{ duration: 0.5, delay: 0.35 }} 
         className='portfolio_item'>
-=======
-        </article>
-        <article className='portfolio_item'>
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
           <div className='portfolio_item-inage'>
             <img className='imgs' src={Poke} alt="" height="250px"/>
           </div>
@@ -127,7 +97,6 @@ const Portafolio = () => {
             <a href='https://github.com/1Optimus/Pokedex' className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
             <p className='btn btn-primary' onClick={()=>{setActiveModal(true);setDataImg(data[1])}}>Images</p>
           </div>
-<<<<<<< HEAD
         </motion.article>
         <motion.article
          variants={{
@@ -139,10 +108,6 @@ const Portafolio = () => {
         exit="exit"         
         transition={{ duration: 0.5, delay: 0.35 }} 
         className='portfolio_item'>
-=======
-        </article>
-        <article className='portfolio_item'>
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
           <div className='portfolio_item-inage'>
             <img className='imgs' src={Onetimesecret} alt=""/>
           </div>
@@ -151,7 +116,6 @@ const Portafolio = () => {
           <a href='https://github.com/1Optimus/onetimesecret' className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
           <p className='btn btn-primary' onClick={()=>{setActiveModal(true);setDataImg(data[0])}}>Images</p>
           </div>
-<<<<<<< HEAD
         </motion.article>
         <motion.article
          variants={{
@@ -163,10 +127,6 @@ const Portafolio = () => {
         exit="exit"         
         transition={{ duration: 0.5, delay: 0.35 }} 
         className='portfolio_item'>
-=======
-        </article>
-        <article className='portfolio_item'>
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
           <div className='portfolio_item-inage'>
             <img className='imgs' src={Urlshortener} alt=""/>
           </div>
@@ -175,7 +135,6 @@ const Portafolio = () => {
             <a href='https://github.com/1Optimus/urlshortener' className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
             <p className='btn btn-primary' onClick={()=>{setActiveModal(true);setDataImg(data[2])}}>Images</p>
           </div>
-<<<<<<< HEAD
         </motion.article>
         <motion.article
          variants={{
@@ -187,10 +146,6 @@ const Portafolio = () => {
         exit="exit"         
         transition={{ duration: 0.5, delay: 0.35 }} 
         className='portfolio_item'>
-=======
-        </article>
-        <article className='portfolio_item'>
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
           <div className='portfolio_item-inage'>
             <img className='imgs' src={Residential} alt=""/>
           </div>
@@ -199,7 +154,6 @@ const Portafolio = () => {
             <a href='https://github.com/1Optimus/PG-Public' className='btn'  target="_blank" rel="noopener noreferrer">Github</a>      
             <p className='btn btn-primary' onClick={()=>{setActiveModal(true);setDataImg(data[3])}}>Images</p>
           </div>
-<<<<<<< HEAD
         </motion.article>
         <motion.article
          variants={{
@@ -211,10 +165,6 @@ const Portafolio = () => {
         exit="exit"         
         transition={{ duration: 0.5, delay: 0.35 }} 
         className='portfolio_item'>
-=======
-        </article>
-        <article className='portfolio_item'>
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
           <div className='portfolio_item-inage'>
             <img className='imgs' src={GCP} alt=""/>
           </div>
@@ -223,11 +173,7 @@ const Portafolio = () => {
             <a href='https://github.com/1Optimus/GCP-project' className='btn'  target="_blank" rel="noopener noreferrer">Github</a>        
             <p className='btn btn-primary' onClick={()=>{setActiveModal(true);setDataImg(data[4])}}>Images</p>
           </div>
-<<<<<<< HEAD
         </motion.article>
-=======
-        </article>
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
       </div>
       <Modal img={dataImg} activeModal={activeModal} setActiveModal={setActiveModal}/>
     </section>

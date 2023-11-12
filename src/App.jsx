@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React,{ useContext } from "react";
 import { motion } from "framer-motion";
 import Toggle from "./components/Toggle/Toggle";
@@ -32,19 +31,6 @@ function App() {
     whileInView='visible'
     transition={{ duration: 0.5, delay: 0.25 }}
     >
-=======
-import React from "react";
-import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
-import About from './components/about/About'
-import Experiences from './components/experiences/Experiences'
-import Portafolio from './components/portafolio/Portafolio'
-import Contact from './components/contact/Contact'
-import Footer from './components/footer/Footer'
-function App() {
-  return (
-    <>
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
     <Header/>
     <Nav/>
     <About/>
@@ -52,15 +38,8 @@ function App() {
     <Portafolio/>
     <Contact/>
     <Footer/>
-<<<<<<< HEAD
     </motion.div>
     </div>
   );
 }
-=======
-    </>
-  );
-}
-
->>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
 export default App;
