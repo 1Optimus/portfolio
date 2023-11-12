@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {useContext} from 'react'
 import{ motion } from "framer-motion"
 import './experiences.css'
@@ -21,6 +22,19 @@ const Experiences = () => {
         exit="exit"         
         transition={{ duration: 0.5, delay: 0.35 }} 
         className='experience_frontend'>
+=======
+import React from 'react'
+import './experiences.css'
+import {BsFillPatchCheckFill} from 'react-icons/bs'
+const Experiences = () => {
+  return (
+    <section id='experiences'>
+      <h5> What skills i have</h5>
+      <h2> My experience</h2>
+
+      <div className='container experience_container'>
+        <div className='experience_frontend'>
+>>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
           <h3>Frontend development</h3>
           <div className='experience_content'>
             <article className='experience_details'>
@@ -66,6 +80,7 @@ const Experiences = () => {
               </div>
             </article>
           </div>
+<<<<<<< HEAD
         </motion.div>
         <motion.div 
         variants={{
@@ -78,6 +93,10 @@ const Experiences = () => {
         exit="exit"         
         transition={{ duration: 0.5, delay: 0.35 }} 
         className='experience_backend'>
+=======
+        </div>
+        <div className='experience_backend'>
+>>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
         <h3>Backtend development</h3>
           <div className='experience_content'>
             <article className='experience_details'>
@@ -123,10 +142,18 @@ const Experiences = () => {
               </div>
             </article>
           </div>
+<<<<<<< HEAD
         </motion.div>
+=======
+        </div>
+>>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
       </div>
     </section>
   )
 }
+<<<<<<< HEAD
 //transition={{ duration: 0.5, delay: 0.25, repeatType:"reverse", repeat:1 }}
+=======
+
+>>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
 export default Experiences

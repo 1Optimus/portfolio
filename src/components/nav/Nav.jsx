@@ -1,7 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useState} from 'react'
 import './nav.css'
+<<<<<<< HEAD
 import{ motion } from "framer-motion"
+=======
+>>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
 import {AiOutlineHome} from 'react-icons/ai'
 import {BsFillBookFill} from 'react-icons/bs'
 import {AiOutlineUser} from 'react-icons/ai'
@@ -10,11 +13,15 @@ import {HiTemplate} from 'react-icons/hi'
 const Nav = () => {
   const [active, setActive]= useState('#')
   return (
+<<<<<<< HEAD
     <motion.nav
     initial={{ y: -275, x: -160}}
     animate={{ y: 0}}
     transition={{ duration: 2 }} 
     >
+=======
+    <nav>
+>>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
       <a 
       href="#" 
       className={active==="#"?('active'):('')}
@@ -40,7 +47,11 @@ const Nav = () => {
       className={active==="#contact"?('active'):('')}
       onClick={()=>setActive("#contact")}
       ><BiMessageAltDetail/></a>
+<<<<<<< HEAD
     </motion.nav>
+=======
+    </nav>
+>>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
   )
 }
 

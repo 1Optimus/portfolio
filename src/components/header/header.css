@@ -1,6 +1,10 @@
 header{
     height: 70vh;
+<<<<<<< HEAD
     padding-top: 2rem;
+=======
+    padding-top: 7rem;
+>>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
     overflow: hidden;
 }
 .header_container{
@@ -11,7 +15,11 @@ header{
 
 /*---------------------CTA-----------------*/
 .cta{
+<<<<<<< HEAD
     padding-top: 1rem;
+=======
+    margin-top: 2.5rem;
+>>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -21,7 +29,11 @@ header{
 .me{
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
+<<<<<<< HEAD
     height: 35rem;
+=======
+    height: 30rem;
+>>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -29,9 +41,12 @@ header{
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
+<<<<<<< HEAD
 #imgMe{
     padding-top: 5rem;
 }
+=======
+>>>>>>> 8fbb177c28922f9ed11df08fd706cc3160746421
 
  /*-------------media queris (medium devices)------------------------------*/
  @media screen and (max-width:1024px){
