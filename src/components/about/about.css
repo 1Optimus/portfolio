@@ -42,7 +42,7 @@
     transition: var(--transition);
 }
 .about_card:hover{
-    background: transparent;
+    background: var(--color-bg);
     border-color: var(--color-primary);
     cursor: default;
 }

@@ -45,7 +45,7 @@ const Contact = () => {
             <BsLinkedin  style={{ color:"#178fe0"}} className='contact_option-icon'/>
             <h4>LinkedIn</h4>
             <h5>Ricardo Pérez Rodriguez</h5>
-            <a href="https://www.linkedin.com/in/ricardo-p%C3%A9rez-rodriguez-71900a245/" target="_blank" rel="noreferrer">Go to LinkedIn</a>
+            <a href="https://www.linkedin.com/in/ricardo-pr" target="_blank" rel="noreferrer">Go to LinkedIn</a>
           </article>
           <article className='contact_option'>
             <RiWhatsappFill  style={{ color:"#178fe0"}} className='contact_option-icon'/>

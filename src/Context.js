@@ -2,7 +2,7 @@ import { createContext, useReducer } from "react";
 
 export const themeContext = createContext();
 
-const initialState = { darkMode: false };
+const initialState = { darkMode: JSON.parse(localStorage.getItem("darkMode"))?? false };
 
 const themeReducer = (state, action) => {
   switch (action.type) {

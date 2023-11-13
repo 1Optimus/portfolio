@@ -18,7 +18,7 @@
     transition: var(--transition);
 }
 .contact_option:hover{
-    background: transparent;
+    background: var(--color-bg);
     border-color: var(--color-primary-variant);
 }
 .contact_option-icon{
