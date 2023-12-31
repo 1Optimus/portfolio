@@ -11,7 +11,7 @@ const Nav = () => {
   const [active, setActive]= useState('#')
   return (
     <motion.nav
-    initial={{ y: -275, x: -200}}
+    initial={{ y: -275, x: -175}}
     animate={{ y: 0}}
     transition={{ duration: 2 }} 
     >

@@ -33,7 +33,7 @@ const Experiences = () => {
             <article className='experience_details'>
               <BsFillPatchCheckFill className="experience_details-icon"/>
               <div>
-                <h4>CSS3</h4>
+                <h4>CSS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -78,20 +78,20 @@ const Experiences = () => {
         exit="exit"         
         transition={{ duration: 0.5, delay: 0.35 }} 
         className='experience_backend'>
-        <h3>Backtend development</h3>
+        <h3>Backend development</h3>
           <div className='experience_content'>
             <article className='experience_details'>
               <BsFillPatchCheckFill className="experience_details-icon"/>
               <div>
                 <h4>NodeJS</h4>
-                <small className='text-light'>beginner</small>
+                <small className='text-light'>Beginner</small>
               </div>
             </article>
             <article className='experience_details'>
               <BsFillPatchCheckFill className="experience_details-icon"/>
               <div>
                 <h4>GCP</h4>
-                <small className='text-light'>beginner</small>
+                <small className='text-light'>Beginner</small>
               </div>
             </article>
             <article className='experience_details'>
@@ -112,14 +112,14 @@ const Experiences = () => {
               <BsFillPatchCheckFill className="experience_details-icon"/>
               <div>
                 <h4>MongoDB</h4>
-                <small className='text-light'>beginner</small>
+                <small className='text-light'>Beginner</small>
               </div>
             </article>
             <article className='experience_details'>
               <BsFillPatchCheckFill className="experience_details-icon"/>
               <div>
                 <h4>MySql and Oracle</h4>
-                <small className='text-light'>intermediate</small>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
           </div>
